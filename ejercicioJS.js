@@ -47,7 +47,7 @@ var fun = (url) =>
             {
                 reject(req.statusText);
             }
-        };  
+        };   
         req.send();
     });
 
